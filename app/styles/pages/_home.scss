@@ -1,0 +1,14 @@
+@import "../mixins/breakpoint";
+
+.home {
+  text-align: center;
+
+  background: #3ff;
+
+  @include breakpoint('small') {
+    background: #f3f;
+  }
+  @include breakpoint('medium') {
+    background: #ff3;
+  }
+}

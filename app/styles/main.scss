@@ -1,0 +1,9 @@
+@import "mixins/breakpoint";
+@import "pages/home";
+@import "shared/loadingModal";
+@import "shared/messageModal";
+@import "variables/screen-sizes";
+
+body {
+  font-family: Arial;
+}
